@@ -1,0 +1,38 @@
+{"fewd2students":[
+	{
+		"firstname":"Jet",
+		"lastname":"Martin",
+		"techninterest":"Javascript, jQuery",
+		"jobdesired":"Software Engineer",
+		"primaryemail":"jet@great.com"
+	},
+	{
+		"firstname":"Paul",
+		"lastname":"Su",
+		"techninterest":"Javascript, jQuery",
+		"jobdesired":"Front End Web Developer",
+		"primaryemail":"paul@gmail.com"
+	},
+	{
+		"firstname":"Ruben",
+		"lastname":"Fiet",
+		"techninterest":"Javascript, jQuery, HTML5, CSS3",
+		"jobdesired":"Front End Web Developer",
+		"primaryemail":"Ruben@gmail.com"
+	},	
+	{
+		"firstname":"Mario",
+		"lastname":"Kaack",
+		"techninterest":"Javascript, jQuery, HTML5, CSS3",
+		"jobdesired":"Technical Instructor",
+		"primaryemail":"Mario@gmail.com"
+	},	
+	{
+		"firstname":"Joe",
+		"lastname":"McDonald",
+		"techninterest":"Javascript, jQuery, HTML5, CSS3",
+		"jobdesired":"Software Engineer",
+		"primaryemail":"ns7@san.rr.com"
+	}	
+	
+]}	

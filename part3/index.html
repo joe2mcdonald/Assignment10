@@ -6,10 +6,28 @@
     <!-- Normal style sheet used for layout and general formatting. -->
     <link href="styles.css" rel="stylesheet">
     <!-- jQuery library reference. Latest is always referenced from jQuery's CDN. -->
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    
+       <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script> 
+   <!--   <script src="http://code.jquery.com/jquery-latest.min.js"></script> -->
+	
 	<script>
-		// WRITE YOUR CODE HERE
+		
+		$(document).ready(function(){                  // DOCUMENT READY
+			$.getJSON("studentscontact.json", function(data) {
+				$.each(data, function() {
+					$.each(this, function(key, value) {
+						$("#result").append( "<h3>" +
+							value.firstname + " " + value.lastname + "</h3> " +
+							"Technical interest: " + value.techninterest + "<br>" + 
+							"Job desired: " + value.jobdesired + "<br>" + 
+							"Primary email: " + value.primaryemail +"<br> <br>" 
+						);
+					});
+				}); 
+			});
+		});												 // END DOCUMENT READY															
     </script>
+    
 </head>
 
 <body>
@@ -27,7 +45,7 @@
     </nav>
     
     <section id="content">
-        <h2>The Vecta Corp. Management Team</h2>
+        <h2>FEWD 2 STUDENTS</h2>
 
 		<div id="result"></div>
     </section>
